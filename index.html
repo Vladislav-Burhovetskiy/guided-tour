@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Guide Tour</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <!-- Vladislav Burhovetskiy (header) start-->
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__nav_logo">
+                    <a href="#">
+                        <img class="header__nav_logo-image" src="img/header/header_logo.png" alt="Logo Norway">
+                    </a>
+                </div>
+                <div class="header__nav_burger">
+                    <span class="header__nav_burger-line"></span>
+                </div>
+                <div class="header__nav_menu-wrapper">
+                    <div class="header__nav_menu">
+                        <a class="header__nav_menu-link" href="#about_us">About Us</a>
+                        <a class="header__nav_menu-link" href="#itinerary">Itinerary</a>
+                        <a class="header__nav_menu-link" href="#about_norway">Norway</a>
+                        <a class="header__nav_menu-link" href="#places">Places</a>
+                        <a class="header__nav_menu-link" href="#stunning_spots">Stunning Spots</a>
+                        <a class="header__nav_menu-link" href="#faq">FAQ</a>
+                        <a class="header__nav_menu-link" href="#testimonials">Testimonials</a>
+                        <a class="header__nav_menu-link" href="#contacts">Contacts</a>
+                        <div class="header__nav_menu-button">
+                            <a class="header__nav_menu-link header__nav_menu-link-button" href="#contact_us">Join Us
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__banner">
+                <div class="header__banner-text-container">
+                    <p class="header__banner-subtitle">
+                        <span class="header__banner-subtitle-line">━</span>
+                        YOUR PERFECT JOURNEY TO
+                    </p>
+                    <h1 class="header__banner-title">Norway</h1>
+                    <div class="header__banner_play-container">
+                        <img class="header__banner_play-icon" src="img/header/header__play_icon.svg" alt="YouTube Play">
+                        <p class="header__banner-subtitle">━
+                            <a class="header__banner-link" href="#about_norway_video">Watch the promo video!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="header__banner-info-container">
+                    <div class="header__baner_video-image">
+                        <a href="https://youtu.be/uXyy7lgDj9k" target="_blank">
+                            <img class="header__baner_video-player" src="img/header/header_video_image.jpg"
+                                alt="Video Player">
+                        </a>
+                    </div>
+                    <p class="header__banner-info-subtitle">Next Trip to Norway</p>
+                    <p class="header__banner-info-date">$2300 | 17 NOV. - 22 NOV.</p>
+                    <p class="header__banner-info-text">10 days of travel and 5 unique places in Norway are waiting for
+                        us ...</p>
+                    <p class="header__banner-info-link-container">
+                        <a class="header__banner-info-link" href="#places">
+                            Read more →
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Vladislav Burhovetskiy (header) finish-->
+    <main>
+        <!--Maria Bilo start (about us)-->
+        <section id="about_us" class="generic-section">
+
+            <div class="about-us-description container">
+                <div class="about__us-details-preview">
+                    <h2 class="about__us-headline">
+                        <span class="decoration-line-about">━</span>
+                        ABOUT US
+                    </h2>
+                    <p class="about__us-preview">Expertly crafted tours to <br>Norway. <span id="ten-days">10
+                            days</span> of admiring <br> nordic cities. fjords, and <br> waterfalls.</p>
+                </div>
+                <div class="clock"></div>
+                <div class="about__us-details">
+                    <p class="about-para">
+                        We offer guided tours in Norway - one of the most beautiful Nordic countries.
+                        We will cross the
+                        entire country, from Oslo to Tromsø, visit amazing cities, and see stunning nature.
+                    </p>
+                    <p class="about-para">
+                        The program is carefully thought out, there are no more than 10 people in each
+                        group plus an English-speaking guide. Comfortable vans and nights in 3*+ hotels are included in
+                        the price.
+                    </p>
+                    <input type="text" class="weather-input-value" value="enter your city" placeholder="enter a city">
+                    <button class="check-weather">Check Weather</button>
+                    <div id="weatherResult"></div>
+                </div>
+            </div>
+            <div class="services__we__offer">
+                <div class="services-wrapper container">
+                    <div class="services-subdiv">
+                        <div class="image-section">
+                            <img src="img/about_us/about-us-item-one.jpg" alt="about us image one" class="about__image">
+                        </div>
+                        <div class="service-container">
+                            <h3 class="service">Contact us</h3>
+                        </div>
+                        <div class="service__description-container">
+                            <p class="service__description">Some tour conditions may be changed according to the season.
+                                To
+                                learn more about the program, please
+                                contact us.</p>
+                        </div>
+                    </div>
+                    <div class="services-subdiv">
+                        <div class="image-section">
+                            <img src="img/about_us/about-us-item-two.jpg" alt="about us image two" class="about__image">
+                        </div>
+                        <div class="service-container">
+                            <h3 class="service">Pick a date</h3>
+                        </div>
+                        <div class="service__description-container">
+                            <p class="service__description">We conduct tours all year round, almost every week, but the
+                                most
+                                comfortable weather for sightseeing
+                                is in summer.</p>
+                        </div>
+                    </div>
+                    <div class="services-subdiv">
+                        <div class="image-section">
+                            <img src="img/about_us/about-us-item-three.jpg" alt="about us image three"
+                                class="about__image">
+                        </div>
+                        <div class="service-container">
+                            <h3 class="service">Start your journey</h3>
+                        </div>
+                        <div class="service__description-container">
+                            <p class="service__description">If necessary, we help you apply for a visa to Norway, as
+                                well as
+                                advise what things you should take
+                                with you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Maria Bilo (end)-->
+
+        <!-- Viktoria Dziuba start (tour itinerary)-->
+        <section id="itinerary" class="map">
+            <div class="map_container container">
+                <div class="map_img-container">
+                    <img class="map_img" src="img/map_tour/map-Norway.png" alt="map">
+                </div>
+                <div class="map_text-container">
+                    <div>
+                        <span class="decoration-line-tour">-</span>
+                        <h2 class="map_h2"> <span class="decoration_line_map">━</span> TOUR ITINERARY</h2>
+                        <p class="map__map-text"> 
+                            <span class="map_head-first">
+                                From Oslo
+                        </span>
+                        <span class="map_head-second">
+                            to Tromsø
+                        </span> 
+                    </p>
+                        <p class="map__tour">We will travel through almost the entire country, from Oslo to Tromsø. Many
+                            amazing
+                            places
+                            await us,
+                            including bustling cities and fishing villages.
+                            You will see the real Norway in all its glory.</p>
+                    </div>
+                    <div class="map_pic-text">
+                        <img class="map_pic" src="img/map_tour/icon-license.png" alt="license">
+                        <div>
+                        <h3 class="map__icon_header">Official License</h3>
+                        <p class="map__tour">We are a licensed tour operator and have all the necessary permits to
+                            conduct
+                            tours
+                            in
+                            Norway.</p>
+                        </div>
+                    </div>
+                    <div class="map_pic-text">
+                        <img class="map_pic" src="img/map_tour/icon-guide.png" alt="guide">
+                        <div>
+                            <h3 class="map__icon_header">Professional Guide</h3>
+                            <p class="map__tour">A professional guide will accompany you along the entire route, who
+                                will
+                                show
+                                you
+                                the most
+                                beautiful places.</p>
+                        </div>
+                    </div>
+                    <div class="map_pic-text">
+                        <img class="map_pic" src="img/map_tour/icon-satisfaction.png" alt="satisfaction" weight="30">
+                        <div><h3 class="map__icon_header">110% Satisfaction</h3>
+                        <p class="map__tour">Norway will steal your heart from the very first day of our trip. It is
+                            impossible
+                            not to
+                            fall in love with it!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Viktoria Dziuba finish (tour itinerary)-->
+
+        <!--Valyas Olha (about norway) (start)-->
+        <section id="about_norway" class="about__norway container">
+            <div class="about__norway-row">
+                <div class="about__norway-img-container flex-basis">
+                <img class="about__norway-description" src="img/about_norway/a-forest.png" alt="a-forest"
+                    style="width: 100%">
+                </div>
+                <div class="flex-basis">
+                    <h2 class="about__norway-title">
+                        <span class="about__norway-line" style="padding-left: 5%;">
+                            ━
+                        </span>
+                        About Norway
+                    </h2>
+                    <h3 class=" about__norway-title-article" style="padding-left: 5%;padding-right: 40%;">Land of The
+                        Midnight Sun <div class="about__norway-description-clock"></div> </h3>
+                    <p class="about__norway-text" style="padding-left: 5%;padding-right: 15%;">
+                        It is believed that the name of this distinctive country and one of the most breathtaking places
+                        on
+                        our planet was given by the Old-Norse word Norðrvegr, literally meaning " way to the north."
+                    </p>
+                </div>
+                <div class="flex-basis">
+                    <p class="about__norway-text" style="padding-left: 5%;padding-right: 15%;">
+                        Norway is famous for green forests and mountains, pristine glaciers, noisy and cool waterfalls,
+                        lakes, beautiful fjords, white nights, and the polar lights. The beauty of Norway cannot be
+                        described in words!
+                    </p>
+
+                    <p class=" about__norway-text" style="padding-left: 5%;padding-right: 15%;">
+                        Norway is also known for its striking landscapes, hunting, fishing, interesting and entertaining
+                        history, and culture. All this attracts travel lovers who come to Norway regardless of the
+                        season
+                        from all over the world.
+                    </p>
+                </div>
+            </div>
+            <!--statistics-start-->
+            <div class="statistics">
+          <div class="container">
+              <div class="stat">
+                  <div class="stat__item">
+                      <div class="stat__count">17,000+</div>
+                      <div class="stat__text">Fjords</div>
+                  </div>
+                  <div class="stat__item">
+                      <div class="stat__count">36</div>
+                      <div class="stat__text">Kilometers of coastal strip</div>
+                  </div>
+                  <div class="stat__item">
+                      <div class="stat__count">450,000+</div>
+                      <div class="stat__text">Freshwater lakes</div>
+                  </div>
+                  <div class="stat__item">
+                      <div class="stat__count">10,000</div>
+                      <div class="stat__text">Waterfalls</div>
+                  </div>
+              </div>
+          </div>
+            </div>
+            <!--lake-start-->
+            <div id="about_norway_video" class="picture">
+                <div class="container">
+                    <div class="lake">
+                        <div class="lake__img">
+                            <img class="lake__picture" src="img/about_norway/boat_on_lake.webp" alt="boat on the lake">
+                        </div>
+
+                        <div class="lake__play">
+                            <a href="https://youtu.be/eUprixWDXnM" target="_blank">
+                            <img class="lake__play-icon" src="img/about_norway/play_icon.svg" alt="play">
+                            </a>
+                        </div>
+                        <p class="lake__text">Want to go fishing in Tromsø, Norway?</p>
+                    </div>
+                </div>
+            </div>
+            <!--lake-end-->
+        </section>
+        <!--Valyas Olha (about norway) (end)-->
+
+        <!--Vdovenko start-->
+        <section id="places" class="where_to_go">
+          <div class="container">
+              <div class="where_to_go_blok_title">
+                  <div class="where_to_go_main_head">
+                      <div>
+                          <h2 class="where_to_go__section_title">
+                              <span class="where_to_go__section_title_tere">
+                                  ━
+                              </span>
+                              PLACES
+                          </h2>
+                      </div>
+                      <div>
+                          <h3 class="where_to_go_title">Where do we go?</h3>
+                      </div>
+                      <div>
+                          <h3 class="where_to_go_subtitle"> 10 days of travel and 5 unique places in Norway are waiting for
+                              us. Read more about each place from our itinerary below.</h3>
+                      </div>
+                  </div>
+              </div>   
+              <div class="where_to_go_flex">
+                  <div class="where_to_go_img" >
+                      <img class="where_to_go_photo"  src="img/Where_do_we_go/photo_oslo.png" alt="!">
+                  </div>
+                  <div>
+                      <div class="where_to_go_text_blok">
+                              <h5 class="where_to_go_titr">Oslo - First point</h5>
+                              <h4 class="where_to_go_titr_subtitle">The Capital and Largest City of Norway</h4>
+                              <div class="where_to_go_decor_box">
+                                  <p><span class="where_to_go_decor">1 night          </span> <span class="where_to_go_decor_subtitle">           Scandic Hotel</span></p>
+                              </div>
+                              <p class="where_to_go_text">We start our journey from Oslo, the capital of Norway. On a walking tour, you will see the opera
+                              house, parliament, the royal palace, and more. </p>
+                              <div >
+                                  <div class="where_to_go_text_sps">
+                                      <div>
+                                          <img class="where_to_go_text_icon" src="img/Where_do_we_go/restaurant_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                                      </div>
+                                      <div>
+                                          <p>- Dinner included</p>
+                                      </div>
+                                  </div>
+                                  <div class="where_to_go_text_sps">
+                                      <div>
+                                          <img class="where_to_go_text_icon" src="img/Where_do_we_go/work_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                                      </div>
+                                      <div>
+                                          <p>- Leave your backpack in the hotel</p>
+                                      </div>
+                                  </div>
+                                  <div class="where_to_go_text_sps">
+                                      <div>
+                                          <img class="where_to_go_text_icon" src="img/Where_do_we_go/flight_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                                      </div>
+                                      <div>
+                                          <p>- Transfer from the airport</p>
+                                      </div>
+                                  </div>
+                              </div>
+                      
+                          <div class="where_to_go_link_div">
+                              
+                              <a class="where_to_go_link" href="#contact_us">book now →</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+        </section>
+        <!--Vdovenko and-->
+
+        <!-- Vladislav Burhovetskiy start (carousel_spots) -->
+        <section id="stunning_spots" class="carousel_spots">
+            <div class="container">
+                <div class="carousel_spots__container">
+                    <h2 class="carousel_spots__section_title">
+                        <span class="carousel_spots__section_title_hyphen">
+                            ━
+                        </span>
+                        STUNNING SPOTS
+                    </h2>
+
+                    <p class="carousel_spots__name">
+                        <span class="carousel_spots__name__color_first">
+                            Beautiful
+                        </span>
+                        <span class="carousel_black__name__color_second">
+                            Landscapes
+                        </span>
+                    </p>
+
+                    <p class="carousel_spots__text">
+                        The beauty of Norway can hardly be overestimated.
+                        It has literally everything: glaciers, green forests, beaches.
+                        Come and see with your own eyes.
+                    </p>
+                </div>
+                <div class="carousel_spots__image_block">
+                    <div class="carousel_spots__slider">
+                        <button class="carousel_spots__slider_button carousel_spots__slider_button-left">
+                            <img class="carousel_spots__slider_button-image" src="img/carousel_spots/arrow_before.svg"
+                                alt="Slider Left">
+                        </button>
+                        <button class="carousel_spots__slider_button carousel_spots__slider_button-right">
+                            <img class="carousel_spots__slider_button-image" src="img/carousel_spots/arrow_next.svg"
+                                alt="Slider Right">
+                        </button>
+                    </div>
+                    <div class="carousel_spots__image-carousel-conteiner"></div>
+                </div>
+                <div class="carousel_spots__dotes">
+                    <ul class="carousel_spots__dotes_slider carousel_spots__dotes">
+                        <li class="carousel_black__dotes_slider-1 carousel_dotes">
+                            <button class="carousel_black__dotes_button"></button>
+                        </li>
+                        <li class="carousel_spots__dotes_slider-2 carousel_dotes">
+                            <button class="carousel_black__dotes_button"></button>
+                        </li>
+                        <li class="carousel_spots__dotes_slider-3 carousel_dotes">
+                            <button class="carousel_black__dotes_button"></button>
+                        </li>
+                        <li class="carousel_spots__dotes_slider-4 carousel_dotes">
+                            <button class="carousel_black__dotes_button"></button>
+                        </li>
+                        <li class="carousel_spots__dotes_slider-5 carousel_dotes">
+                            <button class="carousel_black__dotes_button"></button>
+                        </li>
+                        <li class="carousel_spots__dotes_slider-6 carousel_dotes">
+                            <button class="carousel_black__dotes_button"></button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="carousel_spots__quote_line-up"></div>
+                <div class="carousel_spots__quote container">
+                    <div class="carousel_spots__quote_image-container">
+                        <img class="carousel_spots__quote_image" src="img/carousel_spots/format_quote.svg"
+                            alt="Format Quote">
+                    </div>
+                    <div class="carousel_spots__quote_text__container">
+                        <p class="carousel_spots__quote_text">
+                            "Out in the fjord I dragged myself up at once, wet with fever and
+                            exhaustion, and gazed landwards, and bade farewell for the present
+                            to the town - to Christiania, where the windows gleamed so brightly
+                            in all the homes."
+                        </p>
+                        <p class="carousel_spots__quote_initials">
+                            Knut Hamsun
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel_spots__quote_line-down"></div>
+            </div>
+        </section>
+        <!-- Vladislav Burhovetskiy end -->
+
+        <!-- Vladislav Burhovetskiy start (faq)-->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="carousel_spots__container">
+                    <h2 class="carousel_spots__section_title">
+                        <span class="carousel_spots__section_title_hyphen">
+                            ━
+                        </span>
+                        FAQ
+                    </h2>
+                    <p class="carousel_spots__name">
+                        <span class="carousel_spots__name__color_first">
+                            Explore our expertly
+                        </span>
+                        <span class="carousel_black__name__color_second">
+                            crafted tours
+                        </span>
+                    </p>
+                    <p class="carousel_spots__text">
+                        We tried to make our Norway tour as comfortable and interesting as possible. If you still have
+                        questions, you can contact us directly or fill out the form below.
+                    </p>
+                </div>
+                <div class="faq__question">
+                    <div class="faq__question_accordion">
+                        <div class="faq__question_accordion-container">
+                            <button class="faq__question_accordion-button accordion">
+                                Does this tour require physical fitness?
+                            </button>
+                        </div>
+                        <div class="faq__question_accordion-answer">
+                            <p class="faq__question_accordion-answer-text">
+                                This tour is situable for untrained tourists. No cliff climbing, we promise.
+                            </p>
+                        </div>
+                        <hr class="faq__question_accordion-line" />
+                        <div class="faq__question_accordion-container">
+                            <button class="faq__question_accordion-button accordion">
+                                Will i be able to see the Northern Lights?
+                            </button>
+                        </div>
+                        <div class="faq__question_accordion-answer">
+                            <p class="faq__question_accordion-answer-text">
+                                We cannot promise you this. The Northenr Lights only appear in winter under
+                                special circumstances. But we will hunt it in Tromsø.
+                            </p>
+                        </div>
+                        <hr class="faq__question_accordion-line" />
+                        <div class="faq__question_accordion-container">
+                            <button class="faq__question_accordion-button accordion">
+                                Can I take my children with me on the tour?
+                            </button>
+                        </div>
+                        <div class="faq__question_accordion-answer">
+                            <p class="faq__question_accordion-answer-text">
+                                Yes, we offer a 50% discount for children.
+                            </p>
+                        </div>
+                        <hr class="faq__question_accordion-line" />
+                        <div class="faq__question_accordion-container">
+                            <button class="faq__question_accordion-button accordion">
+                                Can I join you not in Oslo, but in another city?
+                            </button>
+                        </div>
+                        <div class="faq__question_accordion-answer">
+                            <p class="faq__question_accordion-answer-text">
+                                Depending on the weather conditions, our route may change, so we strongly recommend
+                                starting with other tourists from Oslo. We do not change the route to pick up tourists
+                                on the way.
+                            </p>
+                        </div>
+                        <hr class="faq__question_accordion-line" />
+                    </div>
+                    <div class="faq__question_image-container">
+                        <img class="faq__question_image" src="img/faq/faq_photo_traveling.jpeg" alt="FAQ">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Vladislav Burhovetskiy finish (faq) -->
+
+        <!--Maria Bilo start-CONTACT FORM-->
+        <form id="contact_us" action="https://formspree.io/f/mjvlqlrn" method="POST">
+            <div class="empty-container">
+                <section class="contact-form-container container">
+                    <div class="contact-form-wrapper-outer">
+                        <div class="contact-form-wrapper-inner">
+                            <div class="upper-content">
+                                <span class="decoration-line-form">━</span>
+                                <h1 class="contact-us">CONTACT US</h1>
+                            </div>
+                            <div class="content">
+                                <h2 class="book-journey">Book your journey!</h2>
+                                <p class="complete-form">Complete the form below, and we will contact you soon to
+                                    discuss the
+                                    details!</p>
+                            </div>
+
+                            <div class="form">
+                                <div class="top-form">
+                                    <div class="inner-form">
+                                        <div class="label"></div>
+                                        <input class="contact-input" type="text" placeholder="Your name" id="name"
+                                            name="name" required>
+                                    </div>
+                                    <div class="inner-form">
+                                        <div class="label"></div>
+                                        <input class="contact-input" type="text" placeholder="Your phone" id="phone"
+                                            name="phone" required>
+                                    </div>
+                                    <div class="inner-form">
+                                        <div class="label"></div>
+                                        <input class="contact-input" type="email" placeholder="Your email" id="email"
+                                            name="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="calendar-form">
+                                    <div class="inner-calendar-form">
+                                        <div class="label"></div>
+                                        <input class="contact-input-calendar" type="text" placeholder="Choose date"
+                                            id="datepicker" name="datepicker">
+                                        <span class="date-picker-icon">
+                                            <svg class="calendar-image" style="color: rgb(8, 8, 8);"
+                                                xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"
+                                                viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12,19a1,1,0,1,0-1-1A1,1,0,0,0,12,19Zm5,0a1,1,0,1,0-1-1A1,1,0,0,0,17,19Zm0-4a1,1,0,1,0-1-1A1,1,0,0,0,17,15Zm-5,0a1,1,0,1,0-1-1A1,1,0,0,0,12,15ZM19,3H18V2a1,1,0,0,0-2,0V3H8V2A1,1,0,0,0,6,2V3H5A3,3,0,0,0,2,6V20a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V6A3,3,0,0,0,19,3Zm1,17a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V11H20ZM20,9H4V6A1,1,0,0,1,5,5H6V6A1,1,0,0,0,8,6V5h8V6a1,1,0,0,0,2,0V5h1a1,1,0,0,1,1,1ZM7,15a1,1,0,1,0-1-1A1,1,0,0,0,7,15Zm0,4a1,1,0,1,0-1-1A1,1,0,0,0,7,19Z"
+                                                    fill="#080808"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <button class="btn" type="submit" value="send">Request a quote</button>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            </div>
+        </form>
+        <div class=".contact-form-status"></div>
+        <!--Maria Bilo end-CONTACT FORM-->
+
+        <!-- Mariami Gurgenidze Experience section (start)-->
+        <section id="testimonials" class="experience">
+            <div class="experience__container">
+                <div class="experience__content">
+                    <div class="experience_header">
+                        <h5 class="experience_subtitle"><span class="subtitle-line">—</span>TESTIMONIALS</h5>
+                        <h3 class="experience_title">
+                          Travelers Share Their Experience
+                        </h3>
+                        <p class="experience_description">
+                          Norway leaves no one indifferent. Its stunning nature, friendly people, beautiful cities, and delicious cuisine will be remembered forever.
+                        </p>
+                    </div>
+                    <div class="flex-wrapper">
+                        <div class="experience_slider">
+                            <div class="slider_story active">
+                                <img src="img/experience_section/Story1.png" alt="Story`s author photo"
+                                    class="story_photo" width="120" height="120">
+                                <p class="story_author">Cole Tiers</p>
+                                <p class="story_text">
+                                  I wanted to see Norway since childhood when I saw a stylish house right in the middle of the Norwegian forest in some magazine. I thought then that I also want to live in such a house. This dream came true a few months ago on a tour of Norway. I am very happy! Thanks, guys!
+                                </p>
+                                <p class="story_date">
+                                  October 28, 2018
+                                </p>
+                            </div>
+                            <div class="slider_story">
+                                <img src="img/experience_section/Story2.png" alt="Story`s author photo"
+                                    class="story_photo" width="120" height="120">
+                                <p class="story_author">Lilland Forester</p>
+                                <p class="story_text">
+                                  We went on this tour with our daughter, she was 5 years old. I was worried that it would be difficult for her but everything went great. We spent nights in good hotels with excellent breakfasts. My daughter always had something to eat, and the nature in Norway fascinated her even more than us!
+                                </p>
+                                <p class="story_date">May 13, 2019</p>
+                            </div>
+                            <div class="slider_story">
+                                <img src="img/experience_section/Story3.png" alt="Story`s author photo"
+                                    class="story_photo" width="120" height="120">
+                                <p class="story_author">Alice Hendricks</p>
+                                <p class="story_text">
+                                  I still can't believe I have seen the Northern Lights with  my own eyes! That was incredible! When we arrived in Tromsø it was constantly snowing, the weather was bad, and the guide said that we were out of luck, most likely. But on he last night, right at midnight, the clouds left, and I saw it! It was magical!
+                                </p>
+                                <p class="story_date">January 12, 2020</p>
+                            </div>
+                            <div class="slider_arrows">
+                                <i class="slider_arrow" id="arrow_left"></i>
+                                <i class="slider_arrow" id="arrow_right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="slider_dots">
+                        <li class="slider_dot dot1 active-dot"></li>
+                        <li class="slider_dot dot2"></li>
+                        <li class="slider_dot dot3"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Mariami Gurgenidze Experience section (end)-->
+
+        <!-- Vladislav Burhovetskiy (contacts) start -->
+        <section id="contacts" class="contacts">
+          <div class="container contacts__container">
+
+            <div class="contacts__data">
+              <img class="contacts__data-image" src="/img/contacts/email_white.svg" alt="Email">
+              <h3 class="contacts__data-name">
+                Write Us
+              </h3>
+              <a class="contacts__data-link" href="mailto:norway-tour@email.com">
+                norway-tour@email.com
+              </a>
+            </div>
+            <div class="contacts__data">
+              <img class="contacts__data-image" src="/img/contacts/place_white.svg" alt="Address">
+              <h3 class="contacts__data-name">
+                Visit Us
+              </h3>
+              <a 
+                class="contacts__data-link" 
+                href="https://goo.gl/maps/TZq86w15TLq6d8j77" 
+                target="_blank"
+              >
+                Tollbugata 15C, 0152 Oslo
+              </a>
+            </div>
+            <div class="contacts__data">
+              <img class="contacts__data-image" src="/img/contacts/phone_white.svg" alt="Phone number">
+              <h3 class="contacts__data-name">
+                Call Us
+              </h3>
+              <a class="contacts__data-link" href="tel:+12345678900">
+                +1 (234) 567 89 00
+              </a>
+            </div>
+            
+          </div>
+        </section>
+        <!-- Vladislav Burhovetskiy (contacts) end -->
+    </main>
+
+    <!-- Hanna Hrekh && Vladislav Burhovetskiy start (footer)-->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__logo-container">
+            <a href="#">
+                <img class="footer__logo" src="img/footer/footer_Norway.png" alt="Norway logotype">
+            </a>
+        </div>
+        
+            <nav class="footer__nav">
+                <div class="footer__nav_menu">
+                    <a class="footer__nav_menu-link" href="#about_us">About Us</a>
+                    <a class="footer__nav_menu-link" href="#itinerary">Itinerary</a>
+                    <a class="footer__nav_menu-link" href="#about_norway">Norway</a>
+                    <a class="footer__nav_menu-link" href="#stunning_spots">Stunning Spots</a>
+                    <a class="footer__nav_menu-link" href="#faq">FAQ</a>
+                    <a class="footer__nav_menu-link" href="#testimonials">Testimonials</a>
+                    <a class="footer__nav_menu-link" href="#contact_us">Join Us</a>
+                </div>
+            </nav>
+          
+          <div class="footer__info">
+            <p class="footer__info-text">
+              &copy; Created by
+            </p>
+            <div class="footer__social_media">
+              <a class="footer__social_media-icon" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="footer__social_media-icon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a class="footer__social_media-icon" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="footer__info-text">
+              All rights reserved
+            </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Hanna Hrekh end -->
+
+    <script src="js/header_burger.js"></script>
+    <script src="js/about-us.js"></script>
+    <script src="js/carousel-spots.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/about-norway.js"></script>
+    <script src="js/weather-forecast.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/experience.js"></script>
+    <script src="js/email-form.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
