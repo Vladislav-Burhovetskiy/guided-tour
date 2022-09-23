@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    --color-text-light-background: #505155;
+    --color-text-dark-background: rgba(255,255,255,0.6);
+    --light-text-color: #fff;
+    --headlines-dark-color: #232428;
+    --decoration-text-color: rgb(20, 169, 238);
+    --decoration-line-color: rgb(238, 46, 20);
+    --color-background-dark: #232428;
+    --color-background-light: rgb(255, 255, 255);
+    --color-bottom-blue: rgb(20, 169, 238);
+    --paragraph-color: #484848;
+    --headlines-lighter-color: #585858;
+    --clock-box-shadow-a-color: rgba(0, 0, 0, 0.2); 
+    --clock-box-shadow-b-color: rgba(0, 0, 0, 0.19);
+    --clock-background-color: #c2d6d6;
+  --contact-form-background-color: #232428;
+  --complete-form-color: rgba(255, 255, 255, 0.6);
+  --contact-form-input-color: rgb(45, 46, 52);
+  --contact-form-border-color: #4ca1af;
+  --background-footer-color: #000000;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.35px;
+    line-height: 20px;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+img {
+    display: block;
+    height: 100%;
+}

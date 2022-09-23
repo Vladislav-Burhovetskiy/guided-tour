@@ -1,0 +1,281 @@
+.about__norway {
+    padding: 100px 24px 0;
+    text-align: left;
+    background-color: var(--color-background-light);
+
+}
+
+.about__norway-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__norway-img-container {
+    margin-right: 20px;
+}
+
+.about__norway-description {
+    object-fit: contain;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.about__norway-line {
+    color: var(--decoration-line-color);
+    font-size: 12px;
+}
+
+.about__norway-title {
+    text-transform: uppercase;
+    color: var(--paragraph-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    flex: 100%;
+    margin-bottom: 20px;
+}
+
+.about__norway-title-article {
+    color: var(--paragraph-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    margin-bottom: 50px;
+    }
+
+.about__norway-description-clock {
+    padding-top: 10px;
+}
+.about__norway-text {
+    color: var(--paragraph-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+
+
+.about_norway__main-figures {
+    color: rgb(35, 36, 40);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+.about_norway__main-title {
+    color: var(--paragraph-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.about_norway__main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_norway__main>div {
+    flex: 100%;
+}
+@media (min-width: 780px) {
+
+    .flex-basis {
+        flex-basis: 33.33333%;
+    }
+}
+
+@media (min-width: 780px) {
+
+    .about__norway-row {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .about__norway__main>div {
+        flex: 50%;
+    }
+}
+
+.statistics {
+    display: block;
+    background-color: var(--color-background-light);
+    text-align: center;
+}
+
+    .stat {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 70px 30px;
+        grid-row-gap: 45px;
+    }
+
+    .stat__count {
+        margin-bottom: 20px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1;
+        color: var(--headlines-dark-color);
+    }
+
+    .stat__text {
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: var(--paragraph-color);
+    }
+
+
+@media (min-width: 640px) {
+    .stat {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 70px 30px;
+        grid-row-gap: 35px;
+    }
+
+    .stat__count {
+        margin-bottom: 20px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1;
+        color: var(--headlines-dark-color);
+    }
+
+    .stat__text {
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: var(--paragraph-color);
+    }
+}
+
+@media (min-width: 960px) {
+    .stat {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 70px 30px;
+        gap: 50px;        
+    }
+    
+    .stat__count {
+        margin-bottom: 20px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1;
+        color: var(--headlines-dark-color);
+    }
+
+    .stat__text {
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: var(--paragraph-color);
+    }
+}
+
+/*lake-start*/
+
+/* .picture {
+    max-width: 1200px;
+    margin: auto;
+    background-image: url(../img/about_norway/boat_on_lake.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 120px 20px 120px 20px; 
+}
+*/
+.picture {
+    max-width: 1200px;
+    margin: auto;
+    background-color: var(--color-background-light);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 20px 120px 20px; 
+}
+.lake {
+    position: relative;
+    z-index: 1;
+}
+.lake__picture {
+    display: flex;
+    object-fit: contain;
+    max-width: 100%;
+    
+}
+/*
+.lake__play-icon {
+    color: var(--light-text-color);
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+*/
+.lake__text {
+    color: var(--light-text-color);
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+@media (min-width: 520px) {
+    .lake__text {
+        font-size: 25px;
+    }
+}
+@media (min-width: 920px) {
+    .lake__text {
+        top: 60%;
+    }
+}
+.about__norway-description-clock {
+    color: var(--light-text-color);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.lake__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+@media (min-width: 520px) {
+    .lake__play {
+        width: 100px; 
+        height: 100px;
+        
+    }
+}
+
+
+.lake__play-icon {
+    
+    display: block;
+    text-align: center;
+    top: 50%;
+    }
+.lake__play-text {
+    display: block;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: var(--light-text-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.about__norway-description-clock {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--headlines-dark-color);
+    position: absolute;
+    text-align: justify;
+    border: 5px;
+    z-index: auto;
+}

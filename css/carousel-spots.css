@@ -1,0 +1,356 @@
+.carousel_spots {
+    background-color: var(--color-background-dark);
+    padding: 90px 24px 60px;
+}
+
+/* заголовок */
+
+.carousel_spots__section_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: var(--color-text-dark-background);
+    margin-bottom: 20px;
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__section_title {
+        font-size: 13px;
+        letter-spacing: 0.4px;
+        line-height: 21px;
+    }
+}
+
+.carousel_spots__section_title_hyphen {
+    color: var(--decoration-line-color);
+    font-size: 12px;
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__section_title_hyphen {
+        font-size: 13px;
+        letter-spacing: 0.4px;
+        line-height: 21px;
+    }
+}
+
+/* підзаголовок */
+
+.carousel_spots__name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 34px;
+    
+    letter-spacing: 1.02px;
+    line-height: 40px;
+
+    margin-bottom: 50px;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__name {
+        font-size: 40px;
+        letter-spacing: 1.2px;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__name {
+        font-size: 45px;
+        letter-spacing: 1.35px;
+        line-height: 54px;
+    }
+}
+
+.carousel_spots__name__color_first {
+    color: var(--light-text-color);
+}
+
+.carousel_black__name__color_second {
+    color: var(--color-text-light-background);
+}
+
+/* текст */
+
+.carousel_spots__text {
+    font-size: 17px;
+    color: var(--color-text-dark-background);
+
+    margin-bottom: 45px;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__text {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+/* карусель */
+
+.carousel_spots__image  {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel_spots__image_block {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.carousel_spots__image-carousel-conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    min-height: 200px;
+    object-fit: cover;
+    margin: auto;
+}
+
+@media (min-width: 440px) {
+    .carousel_spots__image-carousel-conteiner {
+        min-height: 260px;
+    }
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__image-carousel-conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        min-height: 260px;
+        column-gap: 20px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__image-carousel-conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* кнопки slider */
+
+.carousel_spots__slider {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.carousel_spots__slider_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.carousel_spots__slider_button:hover {
+    background-color: var(--light-text-color);
+}
+
+.carousel_spots__slider_button-image {
+    width: 20px;
+    height: 20px;
+}
+
+/* крапки */
+
+.carousel_spots__dotes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__dotes {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__dotes {
+        margin-bottom: 60px;
+    }
+}
+
+.carousel_spots__dotes_slider {
+    list-style-type: none;
+    
+}
+
+.carousel_dotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+@media (min-width: 640px) {
+    .carousel_dotes {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.carousel_black__dotes_button {
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-text-dark-background);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.carousel_black__dotes_button:hover {
+    background-color: var(--light-text-color);
+}
+
+/* цитата */
+
+.carousel_spots__quote {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__quote {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__quote {
+        max-width: 770px;
+    }
+}
+
+.carousel_spots__quote_image-container::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-text-dark-background);
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__quote_image-container::before {
+        margin-top: 30px;
+    }
+}
+
+.carousel_spots__quote_image-container {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__quote_image-container {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.carousel_spots__quote_image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-background-dark);
+    z-index: 1;
+}
+
+.carousel_spots {
+    position: relative;
+}
+
+.carousel_spots__quote_line-up {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__quote_line-up {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 1px;
+        opacity: 0.5;
+        background-color: var(--color-text-dark-background);
+        bottom: 550px;
+    }
+}
+
+@media (min-width: 960px) {
+    .carousel_spots__quote_line-up {
+        bottom: 510px;
+    }
+}
+
+.carousel_spots__quote_line-down {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .carousel_spots__quote_line-down {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 1px;
+        opacity: 0.5;
+        background-color: var(--color-text-dark-background);
+    }
+}
+
+.carousel_spots__quote_text__container {
+    padding: 25px 10px 45px;
+}
+
+.carousel_spots__quote_text {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: var(--light-text-color);
+    margin-bottom: 30px;
+}
+
+.carousel_spots__quote_initials {
+    color: var(--color-text-dark-background);
+}
+
+.carousel_spots__quote_initials::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-text-dark-background);
+    position: absolute;
+    margin: 50px 0px;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
