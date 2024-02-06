@@ -1,4 +1,3 @@
-# guided-tour
-- Click on [DEMOLINK](https://vladislav-burhovetskiy.github.io/guided-tour/) to see the site.
-- the Guide-tour landing page mockup first was created on Weblium.
-- I was the team leader of 5 people, together we made this project.
+# Guided Tour [DEMOLINK](https://vladislav-burhovetskiy.github.io/guided-tour/)
+Responsive and interactive LP which we built as a team of 5 people.
+It was a good experience of team development and the role of a team leader.
