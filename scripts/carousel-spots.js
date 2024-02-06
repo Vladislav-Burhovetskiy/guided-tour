@@ -4,42 +4,42 @@
         `<div class="carousel_spots__image_container">
             <img
                 class="carousel_spots__image_block-1 carousel_spots__image"
-                src="img/carousel_spots/carousel_spots-1.jpeg"
+                src="images/carousel_spots/carousel_spots-1.jpeg"
                 alt="STUNNING SPOTS"
             >
         </div>`, 
         `<div class="carousel_spots__image_container">
                 <img
                     class="carousel_spots__image_block-2 carousel_spots__image"
-                    src="img/carousel_spots/carousel_spots-2.jpeg"
+                    src="images/carousel_spots/carousel_spots-2.jpeg"
                     alt="STUNNING SPOTS"
                 >
         </div>`, 
         `<div class="carousel_spots__image_container">
                 <img
                     class="carousel_spots__image_block-3 carousel_spots__image"
-                    src="img/carousel_spots/carousel_spots-3.jpeg"
+                    src="images/carousel_spots/carousel_spots-3.jpeg"
                     alt="STUNNING SPOTS"
                 >
         </div>`, 
         `<div class="carousel_spots__image_container">
             <img 
                 class="carousel_spots__image_block-4 carousel_spots__image" 
-                src="img/carousel_spots/carousel_spots-4.png" 
+                src="images/carousel_spots/carousel_spots-4.png" 
                 alt="STUNNING SPOTS"
             >
         </div>`,    
         `<div class="carousel_spots__image_container">
             <img 
                 class="carousel_spots__image_block-5 carousel_spots__image" 
-                src="img/carousel_spots/carousel_spots-5.jpeg" 
+                src="images/carousel_spots/carousel_spots-5.jpeg" 
                 alt="STUNNING SPOTS"
             >
         </div>`,    
         `<div class="carousel_spots__image_container">
             <img 
                 class="carousel_spots__image_block-6 carousel_spots__image" 
-                src="img/carousel_spots/carousel_spots-6.jpeg" 
+                src="images/carousel_spots/carousel_spots-6.jpeg" 
                 alt="STUNNING SPOTS"
             >
         </div>` 
